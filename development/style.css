@@ -1,0 +1,118 @@
+header{
+	background: url('rec.png') 0 100%;
+	background-repeat: no-repeat;
+	background-size: 90% 20%;
+	background-position: bottom center; 
+	padding: 2px 0 40px 0;
+	font: 1.2em "Garamond";
+	text-align: center;
+}
+
+header h1, h2{
+	margin: 0px;
+	font-family:"Garamond"
+}
+
+header li{
+	font: 0.9em "Garamond";
+	background: url('diamond.png') no-repeat right center;
+	padding: 0px 16px 0px 4px;
+}
+
+header li:nth-child(3), li:last-child{
+	background: none;
+}
+
+header li:last-child{
+	display: block;
+}
+
+#navigation{
+	background: url('line.png') 0 100%;
+	background-repeat: no-repeat;
+	background-size: 85% 3%;
+	background-position: bottom center;
+	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 12px;
+	display: inline-block;
+	padding: 10px 0px 10px 0px;
+	
+	/*border:2px solid blue;*/
+}
+
+#navigation a{
+	
+	font: 1.5em "Garamond";
+	Text-decoration: none;
+    outline: none;
+    border: 0px none transparent;
+	
+	padding: 0px 5.5% 0px 5.5%;
+
+}
+
+#content{
+	padding: 0px 7.5%;
+}
+
+li{
+	/*width: 500px;*/
+	/*width: 300px;
+	height: 50px;*/
+	
+	/*background: #ccc;*/
+	margin: 0;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	
+	text-align: center;
+	
+
+	list-style-type: none;
+	text-decoration: none;
+	display: inline;	
+	
+	
+	max-width: 75em;
+}
+
+#box {
+	background: url('/-/img/rule-double-dotted.png') 0 100% repeat-x;
+	padding: 0 0 26px;
+	margin: 24px 7.5% 0px 7.5%;
+}
+
+#box li {
+	float: left;
+	width: 23%;
+	padding: 0 2.6% 0 0;
+}
+
+#box li:last-child{
+	padding: 0;
+}
+
+#box li a {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	display: block;
+	padding: 59px 09.389671361502347417% 0;
+	background: #1f1f1c url('sbg-black-texture.jpg') 0 0 repeat-x;
+	min-height: 168px;
+	color: #ffffe6;
+	font-size: .75em;
+	line-height: 1.25;
+	}
+	stephencaver.com/media="screen, projection"
+	a:hover, a:focus {
+	text-decoration: underline;
+}
+
